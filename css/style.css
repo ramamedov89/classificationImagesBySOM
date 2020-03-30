@@ -1,0 +1,32 @@
+*
+{
+	margin:0;
+	padding: 0;
+}
+body
+{
+	background:#333;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-template-rows: 1fr;
+}
+#canvas
+{
+	border: 1px solid white;
+}
+img
+{
+	width:73px;
+}
+table
+{
+	border-collapse: collapse;	
+}
+td,th
+{
+	text-align: center;
+	color:white;
+	box-sizing: border-box;
+	padding: 3px;
+	width:73px;
+}
